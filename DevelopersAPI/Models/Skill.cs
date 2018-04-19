@@ -5,7 +5,7 @@ using System.Web;
 
 namespace DevelopersAPI.Models
 {
-    const String[] types  = ["backend", "frontend"];
+    //const string[] types  = ["backend", "frontend"];
     public class Skill
     {
         public String name { get; set; }

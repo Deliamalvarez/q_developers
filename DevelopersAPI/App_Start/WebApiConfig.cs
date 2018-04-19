@@ -1,7 +1,10 @@
-﻿using System;
+﻿using DevelopersAPI.Controllers;
+using DevelopersAPI.Provider;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using Unity;
 
 namespace DevelopersAPI
 {
@@ -9,6 +12,10 @@ namespace DevelopersAPI
     {
         public static void Register(HttpConfiguration config)
         {
+            // Unity configuration
+            var container = new UnityContainer();
+            container.RegisterType<IDeveloperRepository, DeveloperRepository>();
+            config.DependencyResolver = new UnityResolver(container);
             // Web API configuration and services
 
             // Web API routes
