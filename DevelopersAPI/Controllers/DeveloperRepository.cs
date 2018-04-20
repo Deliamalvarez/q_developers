@@ -69,7 +69,7 @@ namespace DevelopersAPI.Controllers
                     firstName = d.firstName,
                     lastName = d.lastName,
                     skills = d.skills.Where(s => s.type == type).ToList()
-                });
+                }).Where(devs => devs.skills.Count > 0);
             }
             return filtered_devs;
         }

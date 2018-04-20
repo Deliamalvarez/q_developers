@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -21,11 +22,12 @@ namespace DevelopersAPI.Controllers
         {
             return Ok(_developersRep.getAll());
         }
-        [Route("bylevel/{level?}/{type?}"), HttpGet]
-        public IHttpActionResult getAll(int level = 0, string type = "")
+        [Route("bylevel/{type?}"), HttpGet]
+        public IHttpActionResult getAll(string type = "")
         {
-
-            return Ok(_developersRep.getAll());
+            int level_FromSettings = 0;
+            int level = (int.TryParse(ConfigurationManager.AppSettings.Get("developerLevel"), out level_FromSettings)) ? level_FromSettings : 0;
+            return Ok(_developersRep.getByLevel(level, type));
         }
     }
 }
