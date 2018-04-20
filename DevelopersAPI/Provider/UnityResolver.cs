@@ -1,21 +1,23 @@
-﻿using System;
+﻿using DevelopersAPI.Controllers;
+using Microsoft.Practices.Unity;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Web.Http.Dependencies;
 using Unity;
+using Unity.Exceptions;
 
 namespace DevelopersAPI.Provider
 {
-    public interface IDependencyResolver : IDependencyScope, IDisposable
+    public class UnityConfiguration
     {
-        IDependencyScope BeginScope();
+        public static IUnityContainer Config()
+        {
+            IUnityContainer container = new UnityContainer();
+            container.RegisterType<IDeveloperRepository, DeveloperRepository>();
+            return container;
+        }
     }
 
-    public interface IDependencyScope : IDisposable
-    {
-        object GetService(Type serviceType);
-        IEnumerable<object> GetServices(Type serviceType);
-    }
     public class UnityResolver : IDependencyResolver
     {
         protected IUnityContainer container;
@@ -60,11 +62,6 @@ namespace DevelopersAPI.Provider
         }
 
         public void Dispose()
-        {
-            Dispose(true);
-        }
-
-        protected virtual void Dispose(bool disposing)
         {
             container.Dispose();
         }

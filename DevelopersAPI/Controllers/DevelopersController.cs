@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace DevelopersAPI.Controllers
 {
-    [RoutePrefix("developers")]
+    [RoutePrefix("api/developers")]
     public class DevelopersController : ApiController
     {
         private IDeveloperRepository _developersRep;
@@ -16,7 +16,7 @@ namespace DevelopersAPI.Controllers
         {
             _developersRep = repo;
         }
-        [Route("all/"), HttpGet]
+        [Route(""), HttpGet]
         public IHttpActionResult getAll()
         {
             return Ok(_developersRep.getAll());

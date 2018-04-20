@@ -13,9 +13,9 @@ namespace DevelopersAPI
         public static void Register(HttpConfiguration config)
         {
             // Unity configuration
-            var container = new UnityContainer();
-            container.RegisterType<IDeveloperRepository, DeveloperRepository>();
+            var container = UnityConfiguration.Config();
             config.DependencyResolver = new UnityResolver(container);
+
             // Web API configuration and services
 
             // Web API routes

@@ -27,7 +27,8 @@ namespace DevelopersAPI.Controllers
             List<Developer> devs = null;
             try
             {
-                using (StreamReader r = new StreamReader(filepath))
+                string path = System.Web.HttpContext.Current.ApplicationInstance.Server.MapPath(filepath);
+                using (StreamReader r = new StreamReader(path))
                 {
                     var data = r.ReadToEnd();
                     devs = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Developer>>(data);
