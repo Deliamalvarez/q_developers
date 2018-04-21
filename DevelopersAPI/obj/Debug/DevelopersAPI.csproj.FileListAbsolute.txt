@@ -1,57 +1,57 @@
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\obj\Debug\DevelopersAPI.csprojResolveAssemblyReference.cache
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\ApplicationInsights.config
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\csc.exe
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\vbc.exe
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\VBCSCompiler.exe
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\DevelopersAPI.dll.config
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\DevelopersAPI.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\DevelopersAPI.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.Web.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.ApplicationInsights.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Newtonsoft.Json.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\System.Net.Http.Formatting.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\System.Web.Http.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\System.Web.Http.WebHost.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.Web.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.ApplicationInsights.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Newtonsoft.Json.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\System.Net.Http.Formatting.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\System.Web.Http.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\System.Web.Http.WebHost.xml
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\obj\Debug\DevelopersAPI.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\obj\Debug\DevelopersAPI.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\CommonServiceLocator.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Abstractions.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Configuration.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Container.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Interception.Configuration.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Interception.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.RegistrationByConvention.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.ServiceLocation.dll
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\CommonServiceLocator.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Abstractions.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Configuration.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Container.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Interception.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.Interception.Configuration.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.RegistrationByConvention.pdb
-C:\Users\dalvarez\documents\visual studio 2015\Projects\DevelopersAPI\DevelopersAPI\bin\Unity.ServiceLocation.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\obj\Debug\DevelopersAPI.csproj.CoreCompileInputs.cache
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\ApplicationInsights.config
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\csc.exe
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\vbc.exe
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\DevelopersAPI.dll.config
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\DevelopersAPI.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\DevelopersAPI.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\CommonServiceLocator.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.Web.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Newtonsoft.Json.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\System.Web.Http.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Abstractions.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Configuration.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Container.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Interception.Configuration.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Interception.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.RegistrationByConvention.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.ServiceLocation.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\CommonServiceLocator.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.Web.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Abstractions.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Configuration.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Container.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Interception.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.Interception.Configuration.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.RegistrationByConvention.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Unity.ServiceLocation.pdb
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\Newtonsoft.Json.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\System.Web.Http.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\obj\Debug\DevelopersAPI.dll
+C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI\obj\Debug\DevelopersAPI.pdb

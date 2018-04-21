@@ -10,16 +10,16 @@ namespace DevelopersAPI.Controllers
 {
     public interface IDeveloperRepository
     {
-        IEnumerable<Developer> getAll();
-        IEnumerable<Developer> getByLevel(int level, string type = "");
+        IEnumerable<Developer> GetAll();
+        IEnumerable<Developer> GetByLevel(int level, Boolean byType = false);
     }
     public class DeveloperRepository: IDeveloperRepository
     {
         private List<Developer> _developers;
         private readonly String filepath = ConfigurationManager.AppSettings.Get("developersJSON");
-        public DeveloperRepository()
+        public DeveloperRepository(List<Developer> developers = null)
         {
-            _developers = this.LoadJSON();
+            _developers = developers ?? this.LoadJSON();
         }
 
         private List<Developer> LoadJSON()
@@ -44,32 +44,32 @@ namespace DevelopersAPI.Controllers
             }
             return devs;
         }
-        public IEnumerable<Developer> getAll()
+        public IEnumerable<Developer> GetAll()
         {
             return this._developers;
         }
 
-        public IEnumerable<Developer> getByLevel(int level, string type = "")
+        public IEnumerable<Developer> GetByLevel(int level, Boolean byType = false)
         {
-            /* var skills = _developers.SelectMany(d => d.skills.Where(s=>s.level >= level)).ToList();
-             return _developers.Where(dev => dev.skills.Where(s => skills.Intersect(skills))).Distinct();*/
             var filtered_devs = _developers.Select(d => new Developer()
             {
-                age = d.age,
-                firstName = d.firstName,
-                lastName = d.lastName,
-                skills = d.skills.Where(s => s.level >= level).ToList(),
+                Age = d.Age,
+                FirstName = d.FirstName,
+                LastName = d.LastName,
+                Skills = d.Skills.Where(s => s.Level >= level).OrderByDescending(s=> s.Level).ToList()
+                
             })
-            .Where(devs =>devs.skills.Count > 0);
-            if (!String.IsNullOrEmpty(type))
+            .Where(devs =>devs.Skills.Count > 0).ToList();
+             if (byType)
             {
-                filtered_devs = filtered_devs.Select(d => new Developer()
+                foreach( Developer dev in filtered_devs)
                 {
-                    age = d.age,
-                    firstName = d.firstName,
-                    lastName = d.lastName,
-                    skills = d.skills.Where(s => s.type == type).ToList()
-                }).Where(devs => devs.skills.Count > 0);
+                    List<Skill> skilllsByLevel = dev.Skills.ToList();
+                    List<Skill> allSkills = _developers.Where(d => d.FirstName == dev.FirstName && d.LastName == dev.LastName).First().Skills;
+                    IEnumerable<string> types = allSkills.Select(s => s.Type).Intersect(skilllsByLevel.Select(s => s.Type));
+                    allSkills = allSkills.Where(s => types.Contains(s.Type)).AsEnumerable().OrderByDescending(s => s.Level).GroupBy(s => s.Type).SelectMany(s=>s).ToList();
+                    dev.Skills = allSkills;
+                }
             }
             return filtered_devs;
         }

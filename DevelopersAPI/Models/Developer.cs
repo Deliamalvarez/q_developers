@@ -7,9 +7,9 @@ namespace DevelopersAPI.Models
 {
     public class Developer
     {
-        public String firstName { get; set; }
-        public String lastName { get; set; }
-        public int age { get; set; }
-        public List<Skill> skills { get; set; }
+        public String FirstName { get; set; }
+        public String LastName { get; set; }
+        public int Age { get; set; }
+        public List<Skill> Skills { get; set; }
     }
 }
