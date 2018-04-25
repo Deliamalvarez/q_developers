@@ -10,6 +10,9 @@ using System.Web.Http;
 
 namespace DevelopersAPI.Controllers
 {
+    /*
+     * The controller class that handle the required endpoints
+     * */
     [RoutePrefix("api/developers")]
     public class DevelopersController : ApiController
     {
@@ -23,19 +26,28 @@ namespace DevelopersAPI.Controllers
         {
             _developersRep = repo;
         }
-
+        /// <summary>
+        /// Retrieve asynchronously all developers included in given json file
+        /// </summary>
         [Route(""), HttpGet]
         public async Task<IEnumerable<Developer>> GetAllAsync()
         {
             return await Task.FromResult(_developersRep.GetAll());
         }
-
+        /// <summary>
+        /// Retrieve synchronously all developers included in given json file
+        /// </summary>
         [Route("sync/"), HttpGet]
         public IEnumerable<Developer> GetAllSync()
         {
             return _developersRep.GetAll();
         }
-
+        /// <summary>
+        /// Retrieve developers with level equal or greater than 8, 
+        /// if optional parameter bytype is specified with true, 
+        /// it returns as the exercise ask for: only the skills that are of the same type of the already filtered skills
+        /// on step 1.
+        /// </summary>
         [Route("bylevel/{byType?}"), HttpGet]
         public async Task<IEnumerable<Developer>> GetByLevel(Boolean byType = false)
         {
