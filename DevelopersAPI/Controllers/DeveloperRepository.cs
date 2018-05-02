@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 
 namespace DevelopersAPI.Controllers
@@ -19,10 +20,10 @@ namespace DevelopersAPI.Controllers
         private readonly String filepath = ConfigurationManager.AppSettings.Get("developersJSON");
         public DeveloperRepository(List<Developer> developers = null)
         {
-            _developers = developers ?? this.LoadJSON();
+            _developers =  developers ?? this.LoadJSON().Result;
         }
 
-        private List<Developer> LoadJSON()
+        private async Task<List<Developer>> LoadJSON()
         {
             List<Developer> devs = null;
             try
@@ -30,7 +31,7 @@ namespace DevelopersAPI.Controllers
                 string path = System.Web.HttpContext.Current.ApplicationInstance.Server.MapPath(filepath);
                 using (StreamReader r = new StreamReader(path))
                 {
-                    var data = r.ReadToEnd();
+                    var data = await r.ReadToEndAsync();
                     devs = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Developer>>(data);
                 }
             }
@@ -42,7 +43,7 @@ namespace DevelopersAPI.Controllers
             {
                 Console.WriteLine(ex);
             }
-            return devs;
+            return await Task.FromResult(devs);
         }
         public IEnumerable<Developer> GetAll()
         {
