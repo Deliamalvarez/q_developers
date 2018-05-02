@@ -1,4 +1,4 @@
-﻿using DevelopersAPI.Models;
+﻿using DeveloperModel.DTO;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -11,15 +11,15 @@ using System.Web.Http;
 namespace DevelopersAPI.Controllers
 {
     /*
-     * The controller class that handle the required endpoints
+     * The controller class that handles the required endpoints
      * */
     [RoutePrefix("api/developers")]
     public class DevelopersController : ApiController
     {
-        private IDeveloperRepository _developersRep = new DeveloperRepository();
+        private IDeveloperRepository _developersRep;
         public DevelopersController()
         {
-
+            _developersRep = new DeveloperRepository();
         }
 
         public DevelopersController(IDeveloperRepository repo)
@@ -52,7 +52,7 @@ namespace DevelopersAPI.Controllers
         public async Task<IEnumerable<Developer>> GetByLevel(Boolean byType = false)
         {
             int level_FromSettings = 0;
-            int level = (int.TryParse(ConfigurationManager.AppSettings.Get("developerLevel"), out level_FromSettings)) ? level_FromSettings : 0;
+            int level = (int.TryParse(ConfigurationManager.AppSettings.Get("developerLevel"), out level_FromSettings)) ? level_FromSettings : 8;
             return await Task.FromResult(_developersRep.GetByLevel(level, byType));
         }
     }

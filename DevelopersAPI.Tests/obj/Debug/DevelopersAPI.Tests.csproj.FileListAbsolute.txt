@@ -34,3 +34,39 @@ C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\Developer
 C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI.Tests\obj\Debug\DevelopersAPI.Tests.csproj.CoreCompileInputs.cache
 C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI.Tests\obj\Debug\DevelopersAPI.Tests.dll
 C:\Users\MoniMama\Documents\Test Projects\QDOT\Developers\q_developers\DevelopersAPI.Tests\obj\Debug\DevelopersAPI.Tests.pdb
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\ApplicationInsights.config
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\csc.exe
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\vbc.exe
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\DevelopersAPI.Tests.dll.config
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\DevelopersAPI.Tests.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\DevelopersAPI.Tests.pdb
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\DeveloperModel.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\DevelopersAPI.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\System.Web.Http.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\Unity.Abstractions.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\Unity.Container.dll
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\DeveloperModel.pdb
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\DevelopersAPI.pdb
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\System.Web.Http.xml
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\Unity.Abstractions.pdb
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\my\q_developers\DevelopersAPI.Tests\bin\Debug\Unity.Container.pdb
+C:\my\q_developers\DevelopersAPI.Tests\obj\Debug\DevelopersAPI.Tests.csprojResolveAssemblyReference.cache
+C:\my\q_developers\DevelopersAPI.Tests\obj\Debug\DevelopersAPI.Tests.dll
+C:\my\q_developers\DevelopersAPI.Tests\obj\Debug\DevelopersAPI.Tests.pdb

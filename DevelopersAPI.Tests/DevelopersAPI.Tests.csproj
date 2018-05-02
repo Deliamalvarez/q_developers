@@ -63,6 +63,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DeveloperModel\DeveloperModel.csproj">
+      <Project>{a7dbc3ad-5453-48f1-bbb9-5d028ba4aa59}</Project>
+      <Name>DeveloperModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DevelopersAPI\DevelopersAPI.csproj">
       <Project>{1F1D19BD-A8A5-4D8A-9AEC-189006FD4D3C}</Project>
       <Name>DevelopersAPI</Name>

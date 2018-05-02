@@ -1,11 +1,13 @@
-﻿using DevelopersAPI.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
+using DeveloperModel.DTO;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace DevelopersAPI.Controllers
 {
@@ -20,31 +22,28 @@ namespace DevelopersAPI.Controllers
         private readonly String filepath = ConfigurationManager.AppSettings.Get("developersJSON");
         public DeveloperRepository(List<Developer> developers = null)
         {
-            _developers =  developers ?? this.LoadJSON().Result;
+            _developers = developers?? LoadDevs().Result;
         }
 
-        private async Task<List<Developer>> LoadJSON()
+        private async Task<List<Developer>> LoadDevs()
         {
-            List<Developer> devs = null;
-            try
+            string uri = ConfigurationManager.AppSettings.Get("developerServer").ToString();
+            if (!String.IsNullOrEmpty(uri))
             {
-                string path = System.Web.HttpContext.Current.ApplicationInstance.Server.MapPath(filepath);
-                using (StreamReader r = new StreamReader(path))
+                using (var client = new HttpClient())
                 {
-                    var data = await r.ReadToEndAsync();
-                    devs = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Developer>>(data);
+                    client.BaseAddress = new Uri(uri);
+                    HttpResponseMessage response = client.GetAsync(uri).Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var data = await response.Content.ReadAsStringAsync();
+                        return await Task.FromResult(JsonConvert.DeserializeObject<List<Developer>>(data));
+                    }
                 }
             }
-            catch (FileNotFoundException ex)
-            {
-                Console.WriteLine(ex);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
-            return await Task.FromResult(devs);
+            return null;
         }
+        
         public IEnumerable<Developer> GetAll()
         {
             return this._developers;
@@ -61,7 +60,7 @@ namespace DevelopersAPI.Controllers
                 
             })
             .Where(devs =>devs.Skills.Count > 0).ToList();
-             if (byType)
+            if (byType)
             {
                 foreach( Developer dev in filtered_devs)
                 {
