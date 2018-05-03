@@ -1,0 +1,4 @@
+C:\my\q_developers\DeveloperModel\bin\Debug\DeveloperModel.dll
+C:\my\q_developers\DeveloperModel\bin\Debug\DeveloperModel.pdb
+C:\my\q_developers\DeveloperModel\obj\Debug\DeveloperModel.dll
+C:\my\q_developers\DeveloperModel\obj\Debug\DeveloperModel.pdb

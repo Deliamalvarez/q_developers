@@ -1,9 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-using DevelopersAPI.Models;
 using DevelopersAPI.Controllers;
 using System.Threading.Tasks;
+using DeveloperModel.DTO;
+
 
 namespace DevelopersAPI.Tests
 {
@@ -33,6 +34,23 @@ namespace DevelopersAPI.Tests
             Assert.AreEqual(testDevs.Count, result.Count);
         }
 
+        [TestMethod]
+        public async Task GetAllDevelopers_ShouldReturnDevelopersWithLevelGreaterThan8()
+        {
+            var result = await controller.GetByLevel() as List<Developer>;
+            Assert.IsNotNull(result);
+            Assert.AreEqual(2, (result[0] as Developer).Skills.Count);
+            Assert.AreEqual(2, (result[1] as Developer).Skills.Count);
+        }
+
+        [TestMethod]
+        public async Task GetAllDevelopers_ShouldReturnDevelopersWithLevelByType()
+        {
+            var result = await controller.GetByLevel(true) as List<Developer>;
+            Assert.IsNotNull(result);
+            Assert.AreEqual(3, (result[0] as Developer).Skills.Count);
+            Assert.AreEqual(3, (result[1] as Developer).Skills.Count);
+        }
         private List<Developer> GetDevelopers() => new List<Developer>() {
                 new Developer()
                 {
