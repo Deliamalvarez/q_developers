@@ -43,6 +43,14 @@ namespace DevelopersAPI.Tests
             Assert.AreEqual(2, (result[1] as Developer).Skills.Count);
         }
 
+        [TestMethod]
+        public async Task GetAllDevelopers_ShouldReturnDevelopersWithLevelByType()
+        {
+            var result = await controller.GetByLevel(true) as List<Developer>;
+            Assert.IsNotNull(result);
+            Assert.AreEqual(3, (result[0] as Developer).Skills.Count);
+            Assert.AreEqual(3, (result[1] as Developer).Skills.Count);
+        }
         private List<Developer> GetDevelopers() => new List<Developer>() {
                 new Developer()
                 {

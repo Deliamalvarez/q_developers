@@ -33,11 +33,11 @@ namespace DevelopersAPI.Controllers
                 using (var client = new HttpClient())
                 {
                     client.BaseAddress = new Uri(uri);
-                    HttpResponseMessage response = client.GetAsync(uri).Result;
+                    HttpResponseMessage response = await client.GetAsync(uri).ConfigureAwait(false);
                     if (response.IsSuccessStatusCode)
                     {
                         var data = await response.Content.ReadAsStringAsync();
-                        return await Task.FromResult(JsonConvert.DeserializeObject<List<Developer>>(data));
+                        return JsonConvert.DeserializeObject<List<Developer>>(data);
                     }
                 }
             }
